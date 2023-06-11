@@ -1,4 +1,4 @@
-def strcounter(s):  # решение за N
+def strcounter(s): # решение за N
     syms_counter = {}
     for sym in s:
         syms_counter[sym] = syms_counter.get(sym, 0) + 1
